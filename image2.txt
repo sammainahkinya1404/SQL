@@ -1,0 +1,22 @@
+﻿
+
+A. Use the tables in the next page to answer the following questions in SQL.
+1. [3 pts] Print the names of employees with no dependents.
+2. [3 pts] Print the names of employees who are managers.
+3. [3 pts] Print the names of employees who have more than one spouse.
+4. [3 pts] Print the names of employees who worked more than 20 hours in Computerization or Reorganization projects.
+5. [4 pts] Print the names of employees who work in all the projects.
+6. [4 pts] Print the name of each employee and the name of his manager, for an employee who worked for a project located in Houston but never worked for a project located in Stafford.
+B. Download any dataset from Kaggle and then perform the following in Pandas:
+1. [3 pts] Read the file into a Pandas dataframe.
+2. [27 pts] Apply the following Pandas functions on the dataframe:
+i. fillna
+ii. dropna
+iii. replace
+iv. groupby
+v. concat
+vi. merge (use it with inner, outer, left, right)
+vii. pivot and pivot_table
+viii. melt
+ix. stack and unstack
+x. crosstab

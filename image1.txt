@@ -1,0 +1,160 @@
+﻿
+
+EMPLOYEE
+Fname Minit Lname Ssn Bdate Address John B Smith 123456789 1965-01-09 731 Fondren, Houston, TX Franklin T Wong 333445555 1955-12-08 638 Voss, Houston, TX Alicia J Zelaya 999887777 1968-01-19 3321 Castle, Spring, TX Jennifer S Wallace 987654321 1941-06-20 291 Berry, Bellaire, TX
+Sex Salary
+M
+Super_ssn Dno 30000 333445555 5
+M
+40000 888665555 5
+F
+25000 987654321 4
+F
+43000 888665555 4
+Ramesh K Narayan 666884444 1962-09-15 975 Fire Oak, Humble, TX Joyce A English 453453453 1972-07-31 5631 Rice, Houston, TX Ahmad V Jabbar 987987987 1969-03-29 980 Dallas, Houston, TX James E Borg 888665555 1937-11-10 450 Stone, Houston, TX
+M
+38000 333445555 5
+F
+25000 333445555 5
+M
+25000 987654321 4
+M
+55000 NULL
+1
+DEPARTMENT
+DEPT_LOCATIONS
+Dname
+Dnumber
+Research
+5
+Mgr_ssn 333445555
+Mgr_start_date
+Dnumber
+Dlocation
+1988-05-22
+1
+Houston
+Administration
+4
+Headquarters
+1
+987654321 888665555
+1995-01-01
+4
+Stafford
+1981-06-19
+5
+Bellaire
+5
+Sugarland
+5
+Houston
+WORKS ON Essn
+PROJECT
+Pno
+Hours
+Pname
+Pnumber
+Plocation
+Dnum
+123456789
+1
+32.5
+ProductX
+1
+Bellaire
+5
+123456789
+2
+7.5
+ProductY
+2
+Sugarland
+5
+666884444
+3
+40.0
+ProductZ
+3
+Houston
+5
+453453453
+1
+20.0
+Computerization 10
+Stafford
+4
+453453453
+2
+20.0
+333445555
+2
+10.0
+Reorganization Newbenefits
+20
+Houston
+1
+30
+Stafford
+4
+333445555
+3
+10.0
+333445555
+10
+10.0
+DEPENDENT
+333445555
+20
+10.0
+Essn
+Dependent_name Sex
+999887777
+30
+30.0
+333445555
+Alice
+999887777
+10
+10.0
+333445555
+Theodore
+Bdate F 1986-04-05 M 1983-10-25 Son
+Relationship Daughter
+987987987
+10
+35.0
+333445555
+Joy
+F
+1958-05-03
+Spouse
+987987987
+30
+5.0
+987654321
+Abner
+M
+1942-02-28
+Spouse
+987654321
+30
+20.0
+123456789
+Michael
+M
+1988-01-04 Son
+987654321
+20
+15.0
+123456789
+Alice
+F
+1988-12-30 Daughter
+888665555
+20
+NULL
+123456789
+Elizabeth
+F
+1967-05-05 Spouse
